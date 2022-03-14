@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_colour_themes
+    - node.type.page
+  module:
+    - options
+id: node.page.field_colour_themes
+field_name: field_colour_themes
+entity_type: node
+bundle: page
+label: 'Colour Themes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: whiteonblack
+default_value_callback: ''
+settings: {  }
+field_type: list_string

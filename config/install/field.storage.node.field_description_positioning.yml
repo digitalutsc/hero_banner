@@ -1,0 +1,36 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - options
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_description_positioning
+field_name: field_description_positioning
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: bottomleft
+      label: bottom-left
+    -
+      value: bottomright
+      label: bottom-right
+    -
+      value: topright
+      label: top-right
+    -
+      value: topleft
+      label: top-left
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

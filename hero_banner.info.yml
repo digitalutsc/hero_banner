@@ -1,0 +1,15 @@
+name: hero_banner
+type: module
+description: "hero banner"
+core_version_requirement: "^8 || ^9"
+package: Custom
+dependencies:
+  - image
+  - link
+  - options
+  - field_permissions
+  - file
+  - node
+  - crop
+  - responsive_image
+  - user

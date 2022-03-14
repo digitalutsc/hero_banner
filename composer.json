@@ -1,0 +1,13 @@
+{
+    "name": "hero_banner",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/hero_banner",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/hero_banner",
+        "source": "http://cgit.drupalcode.org/hero_banner",
+    },
+}

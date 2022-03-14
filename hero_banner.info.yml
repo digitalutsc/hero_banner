@@ -1,7 +1,7 @@
 name: hero_banner
 type: module
-description: "hero banner"
-core_version_requirement: "^8 || ^9"
+description: 'hero banner'
+core_version_requirement: '^8 || ^9'
 package: Custom
 dependencies:
   - image
@@ -13,3 +13,6 @@ dependencies:
   - crop
   - responsive_image
   - user
+  - entity_reference_revisions
+  - text
+  - paragraphs

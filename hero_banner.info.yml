@@ -16,3 +16,4 @@ dependencies:
   - entity_reference_revisions
   - text
   - paragraphs
+  - menu_ui

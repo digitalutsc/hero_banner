@@ -36,17 +36,17 @@ third_party_settings:
       children:
         - field_16_4_hero_image
         - group_hero_details
-      label: "Hero Banner (Homepage only)"
+      label: 'Hero Banner (Homepage only)'
       region: content
-      parent_name: ""
+      parent_name: ''
       weight: 3
       format_type: details
       format_settings:
-        classes: ""
+        classes: ''
         show_empty_fields: false
-        id: ""
+        id: ''
         open: false
-        description: ""
+        description: ''
         required_fields: true
     group_hero_details:
       children:
@@ -55,17 +55,17 @@ third_party_settings:
         - field_hero_description
         - field_description_positioning
         - field_colour_themes
-      label: "Hero Details"
+      label: 'Hero Details'
       region: content
       parent_name: group_hero_banner
       weight: 5
       format_type: details
       format_settings:
-        classes: ""
+        classes: ''
         show_empty_fields: false
-        id: ""
+        id: ''
         open: false
-        description: ""
+        description: ''
         required_fields: true
     group_images:
       children:
@@ -73,49 +73,49 @@ third_party_settings:
         - field_summary_image
       label: Images
       region: content
-      parent_name: ""
+      parent_name: ''
       weight: 4
       format_type: details
       format_settings:
-        classes: ""
+        classes: ''
         show_empty_fields: false
-        id: ""
+        id: ''
         open: false
-        description: ""
+        description: ''
         required_fields: true
     group_video_galery:
       children:
         - field_video_galery
         - field_video_layout
         - field_video_location
-      label: "Video Galery"
+      label: 'Video Galery'
       region: content
-      parent_name: ""
+      parent_name: ''
       weight: 9
       format_type: details
       format_settings:
-        classes: ""
+        classes: ''
         show_empty_fields: false
-        id: ""
+        id: ''
         open: false
-        description: ""
+        description: ''
         required_fields: true
     group_additional:
       children:
         - group_body
         - group_accordion
         - group_page_and_cta_teasers
-      label: "Additional Fields"
+      label: 'Additional Fields'
       region: content
-      parent_name: ""
+      parent_name: ''
       weight: 10
       format_type: details
       format_settings:
-        classes: ""
+        classes: ''
         show_empty_fields: false
-        id: ""
+        id: ''
         open: false
-        description: ""
+        description: ''
         required_fields: true
     group_body:
       children:
@@ -126,11 +126,11 @@ third_party_settings:
       weight: 20
       format_type: details
       format_settings:
-        classes: ""
+        classes: ''
         show_empty_fields: false
-        id: ""
+        id: ''
         open: false
-        description: ""
+        description: ''
         required_fields: true
     group_accordion:
       children:
@@ -141,29 +141,27 @@ third_party_settings:
       weight: 21
       format_type: details
       format_settings:
-        classes: ""
+        classes: ''
         show_empty_fields: false
-        id: ""
+        id: ''
         open: false
-        description: ""
+        description: ''
         required_fields: true
     group_page_and_cta_teasers:
       children:
         - field_additional_page_and_cta_te
-      label: "Page and CTA Teasers"
+      label: 'Page and CTA Teasers'
       region: content
       parent_name: group_additional
       weight: 22
       format_type: details
       format_settings:
-        classes: ""
+        classes: ''
         show_empty_fields: false
-        id: ""
+        id: ''
         open: false
-        description: ""
+        description: ''
         required_fields: true
-_core:
-  default_config_hash: SfpLhPExzvR0MgFp0Wp7CrmgEnhcqQ-fXIWFhbf4ue0
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -176,9 +174,9 @@ content:
     settings:
       rows: 9
       summary_rows: 3
-      placeholder: ""
+      placeholder: ''
       show_summary: false
-    third_party_settings: {}
+    third_party_settings: {  }
   field_16_4_hero_image:
     type: image_widget_crop
     weight: 4
@@ -187,8 +185,8 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
       crop_preview_image_style: crop_thumbnail
-      crop_list: {}
-      crop_types_required: {}
+      crop_list: {  }
+      crop_types_required: {  }
       warn_multiple_usages: true
       show_crop_area: false
       show_default_crop: true
@@ -203,8 +201,8 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
       crop_preview_image_style: crop_thumbnail
-      crop_list: {}
-      crop_types_required: {}
+      crop_list: {  }
+      crop_types_required: {  }
       warn_multiple_usages: true
       show_crop_area: false
       show_default_crop: true
@@ -219,8 +217,8 @@ content:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
   field_additional_accordion:
     type: entity_reference_autocomplete
     weight: 26
@@ -229,8 +227,8 @@ content:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
   field_additional_page_and_cta_te:
     type: entity_reference_autocomplete
     weight: 23
@@ -239,22 +237,22 @@ content:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
   field_body:
     type: text_textarea
     weight: 21
     region: content
     settings:
       rows: 5
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
   field_colour_themes:
     type: options_select
     weight: 8
     region: content
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
   field_cta_references:
     type: entity_reference_autocomplete
     weight: 8
@@ -263,38 +261,38 @@ content:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
   field_description_positioning:
     type: options_select
     weight: 7
     region: content
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
   field_hero_description:
     type: string_textfield
     weight: 6
     region: content
     settings:
       size: 60
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
   field_hero_link:
     type: link_default
     weight: 4
     region: content
     settings:
-      placeholder_url: ""
-      placeholder_title: ""
-    third_party_settings: {}
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
   field_hero_title:
     type: string_textfield
     weight: 5
     region: content
     settings:
       size: 60
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
   field_page_and_cta_references:
     type: entity_reference_autocomplete
     weight: 7
@@ -303,8 +301,8 @@ content:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
   field_summary_image:
     type: image_widget_crop
     weight: 6
@@ -313,8 +311,8 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
       crop_preview_image_style: crop_thumbnail
-      crop_list: {}
-      crop_types_required: {}
+      crop_list: {  }
+      crop_types_required: {  }
       warn_multiple_usages: true
       show_crop_area: false
       show_default_crop: true
@@ -338,40 +336,40 @@ content:
       features:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
-    third_party_settings: {}
+    third_party_settings: {  }
   field_video_layout:
     type: options_select
     weight: 31
     region: content
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
   field_video_location:
     type: options_select
     weight: 32
     region: content
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
   path:
     type: path
     weight: 1
     region: content
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
   status:
     type: boolean_checkbox
     weight: 2
     region: content
     settings:
       display_label: true
-    third_party_settings: {}
+    third_party_settings: {  }
   title:
     type: string_textfield
     weight: 0
     region: content
     settings:
       size: 60
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
   created: true
   langcode: true

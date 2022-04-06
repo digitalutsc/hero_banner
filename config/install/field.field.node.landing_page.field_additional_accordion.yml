@@ -3,11 +3,11 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_additional_accordion
-    - node.type.page
-id: node.page.field_additional_accordion
+    - node.type.landing_page
+id: node.landing_page.field_additional_accordion
 field_name: field_additional_accordion
 entity_type: node
-bundle: page
+bundle: landing_page
 label: 'Additional Accordion'
 description: ''
 required: false

@@ -8,7 +8,7 @@ dependencies:
     - field.storage.node.field_hero_description
     - field.storage.node.field_hero_link
     - field.storage.node.field_hero_title
-    - node.type.page
+    - node.type.landing_page
     - responsive_image.styles.16_5_and_16_9_mixed_aspect_ratio
   module:
     - link

@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_colour_themes
-    - node.type.page
+    - node.type.landing_page
   module:
     - options
-id: node.page.field_colour_themes
+id: node.landing_page.field_colour_themes
 field_name: field_colour_themes
 entity_type: node
-bundle: page
+bundle: landing_page
 label: 'Colour Themes'
 description: ''
 required: false

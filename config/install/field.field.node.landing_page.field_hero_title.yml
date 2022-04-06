@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_hero_description
-    - node.type.page
-id: node.page.field_hero_description
-field_name: field_hero_description
+    - field.storage.node.field_hero_title
+    - node.type.landing_page
+id: node.landing_page.field_hero_title
+field_name: field_hero_title
 entity_type: node
-bundle: page
-label: 'Hero Description'
+bundle: landing_page
+label: 'Hero Title'
 description: ''
 required: false
 translatable: false

@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_video_layout
-    - node.type.page
+    - node.type.landing_page
   module:
     - options
-id: node.page.field_video_layout
+id: node.landing_page.field_video_layout
 field_name: field_video_layout
 entity_type: node
-bundle: page
+bundle: landing_page
 label: 'Video Layout'
 description: ''
 required: false

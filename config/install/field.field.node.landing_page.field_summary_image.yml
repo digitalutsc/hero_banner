@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_4_1_full_width_banner
-    - node.type.page
+    - field.storage.node.field_summary_image
+    - node.type.landing_page
   module:
     - image
-id: node.page.field_4_1_full_width_banner
-field_name: field_4_1_full_width_banner
+id: node.landing_page.field_summary_image
+field_name: field_summary_image
 entity_type: node
-bundle: page
-label: 'Full Width Banner'
+bundle: landing_page
+label: 'Summary Image'
 description: ''
 required: false
 translatable: false

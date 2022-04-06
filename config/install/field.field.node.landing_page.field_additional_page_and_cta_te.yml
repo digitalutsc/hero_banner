@@ -3,11 +3,11 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_additional_page_and_cta_te
-    - node.type.page
-id: node.page.field_additional_page_and_cta_te
+    - node.type.landing_page
+id: node.landing_page.field_additional_page_and_cta_te
 field_name: field_additional_page_and_cta_te
 entity_type: node
-bundle: page
+bundle: landing_page
 label: 'Additional Page and CTA Teasers'
 description: ''
 required: false

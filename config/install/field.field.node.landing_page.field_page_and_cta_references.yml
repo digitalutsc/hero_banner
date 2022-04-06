@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_accordion_content_referenc
-    - node.type.page
-id: node.page.field_accordion_content_referenc
-field_name: field_accordion_content_referenc
+    - field.storage.node.field_page_and_cta_references
+    - node.type.landing_page
+id: node.landing_page.field_page_and_cta_references
+field_name: field_page_and_cta_references
 entity_type: node
-bundle: page
-label: 'Accordion Content Reference'
+bundle: landing_page
+label: 'Page and CTA References'
 description: ''
 required: false
 translatable: false

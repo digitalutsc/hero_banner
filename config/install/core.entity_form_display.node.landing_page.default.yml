@@ -2,26 +2,26 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - field.field.node.page.field_16_4_hero_image
-    - field.field.node.page.field_4_1_full_width_banner
-    - field.field.node.page.field_accordion_content_referenc
-    - field.field.node.page.field_additional_accordion
-    - field.field.node.page.field_additional_page_and_cta_te
-    - field.field.node.page.field_body
-    - field.field.node.page.field_colour_themes
-    - field.field.node.page.field_cta_references
-    - field.field.node.page.field_description_positioning
-    - field.field.node.page.field_hero_description
-    - field.field.node.page.field_hero_link
-    - field.field.node.page.field_hero_title
-    - field.field.node.page.field_page_and_cta_references
-    - field.field.node.page.field_summary_image
-    - field.field.node.page.field_video_galery
-    - field.field.node.page.field_video_layout
-    - field.field.node.page.field_video_location
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_16_4_hero_image
+    - field.field.node.landing_page.field_4_1_full_width_banner
+    - field.field.node.landing_page.field_accordion_content_referenc
+    - field.field.node.landing_page.field_additional_accordion
+    - field.field.node.landing_page.field_additional_page_and_cta_te
+    - field.field.node.landing_page.field_body
+    - field.field.node.landing_page.field_colour_themes
+    - field.field.node.landing_page.field_cta_references
+    - field.field.node.landing_page.field_description_positioning
+    - field.field.node.landing_page.field_hero_description
+    - field.field.node.landing_page.field_hero_link
+    - field.field.node.landing_page.field_hero_title
+    - field.field.node.landing_page.field_page_and_cta_references
+    - field.field.node.landing_page.field_summary_image
+    - field.field.node.landing_page.field_video_galery
+    - field.field.node.landing_page.field_video_layout
+    - field.field.node.landing_page.field_video_location
     - image.style.thumbnail
-    - node.type.page
+    - node.type.landing_page
   module:
     - field_group
     - image_widget_crop
@@ -162,9 +162,9 @@ third_party_settings:
         open: false
         description: ''
         required_fields: true
-id: node.page.default
+id: node.landing_page.default
 targetEntityType: node
-bundle: page
+bundle: landing_page
 mode: default
 content:
   body:

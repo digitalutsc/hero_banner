@@ -1,4 +1,4 @@
-name: hero_banner
+name: Hero Banner
 type: module
 description: 'hero banner'
 core_version_requirement: '^8 || ^9'

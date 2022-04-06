@@ -17,3 +17,6 @@ dependencies:
   - text
   - paragraphs
   - menu_ui
+  - imce
+  - image_widget_crop
+  - field_group

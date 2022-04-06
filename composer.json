@@ -20,7 +20,10 @@
     "require": {
         "drupal/paragraphs": "^1.13",
         "drupal/entity_reference_revisions": "^1.9",
-        "drupal/field_permissions": "^1.1"
+        "drupal/field_permissions": "^1.1",
+        "drupal/field_group": "^3.2",
+        "drupal/image_widget_crop": "^2.3",
+        "drupal/imce": "^2.4"
     },
     "authors": [
         {

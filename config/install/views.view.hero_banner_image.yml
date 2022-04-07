@@ -501,7 +501,7 @@ display:
           operator: in
           value:
             flexible_content: flexible_content
-            page: page
+            page: landing_page
           group: 1
           exposed: false
           expose:

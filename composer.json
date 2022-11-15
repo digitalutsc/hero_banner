@@ -18,6 +18,7 @@
         }
     },
     "require": {
+        "drupal/entity_reference_revisions": "^1.10",
         "drupal/paragraphs": "^1.13",
         "drupal/entity_reference_revisions": "^1.9",
         "drupal/field_permissions": "^1.1",

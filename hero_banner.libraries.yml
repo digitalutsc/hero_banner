@@ -1,0 +1,4 @@
+hero_banner_css:
+  css:
+    theme:
+      css/hero_banner.css: {}

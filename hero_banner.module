@@ -33,3 +33,10 @@ function hero_banner_theme() {
     ],
   ];
 }
+
+ /**
+ * Implements hook_page_attachments().
+ */
+function islandora_repository_reports_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'hero_banner/hero_banner_css';
+}

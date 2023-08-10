@@ -4,12 +4,19 @@
   display: block;
   position: absolute;
   z-index: 1;
-  color: #E8E4E2;
+  background-color: rgba(22,21,20,0.01);
+  color: #ffffff;
   font-size: 0.8em;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .feature-description a {
-  color: #ffffff;
+  color: #A2D5E0 !important;
   text-decoration: underline !important;
+  font-style:italic;
+}
+.feature-description a:hover {
+  color: #aeacac !important;
 }
 
 .gradient-overlay {
@@ -37,7 +44,7 @@
         padding: 5px;  
       }
   .feature-description a {
-          color: #ffffff;
+          color: #ffffff !important;
       }
 }
 

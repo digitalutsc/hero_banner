@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.4_1_crop_hero_1x_extra_large
+  module:
+    - crop
+name: 4_1_hero_1x_extra_large
+label: '16:5 Hero 1x extra large'
+effects:
+  ad670391-0882-46cc-a178-0a1e0bc66b74:
+    uuid: ad670391-0882-46cc-a178-0a1e0bc66b74
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: 4_1_crop_hero_1x_extra_large
+      automatic_crop_provider: null

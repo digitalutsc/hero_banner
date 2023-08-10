@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: '16_9'
+label: '16:9 Hero image 1x large'
+effects:
+  ccccf610-c6fd-490e-a1b1-8a56c586e1ce:
+    uuid: ccccf610-c6fd-490e-a1b1-8a56c586e1ce
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 675
+      anchor: center-top

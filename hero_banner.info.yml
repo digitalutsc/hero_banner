@@ -6,6 +6,7 @@ package: Custom
 dependencies:
   - image
   - link
+  - media
   - options
   - field_permissions
   - file

@@ -2,15 +2,11 @@ langcode: en
 status: true
 dependencies:
   module:
-    - field_permissions
-    - node
+    - media
     - options
-third_party_settings:
-  field_permissions:
-    permission_type: public
-id: node.field_description_positioning
+id: media.field_description_positioning
 field_name: field_description_positioning
-entity_type: node
+entity_type: media
 type: list_string
 settings:
   allowed_values:

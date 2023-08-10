@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.storage.node.field_accordion_content_referenc
     - node.type.landing_page
+    - node.type.page
 id: node.landing_page.field_accordion_content_referenc
 field_name: field_accordion_content_referenc
 entity_type: node

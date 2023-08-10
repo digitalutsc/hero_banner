@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_hero_link
-    - node.type.landing_page
+    - field.storage.media.field_hero_link
+    - media.type.banner_image
   module:
     - link
-id: node.landing_page.field_hero_link
+id: media.banner_image.field_hero_link
 field_name: field_hero_link
-entity_type: node
-bundle: landing_page
+entity_type: media
+bundle: banner_image
 label: 'Hero Link'
 description: ''
 required: false

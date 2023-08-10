@@ -2,24 +2,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_additional_accordion
+    - field.storage.node.field_media_banner_
+    - media.type.banner_image
     - node.type.landing_page
-    - node.type.page
-id: node.landing_page.field_additional_accordion
-field_name: field_additional_accordion
+id: node.landing_page.field_media_banner_
+field_name: field_media_banner_
 entity_type: node
 bundle: landing_page
-label: 'Additional Accordion'
+label: 'Media Banner '
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:node'
+  handler: 'default:media'
   handler_settings:
     target_bundles:
-      page: page
+      banner_image: banner_image
     sort:
       field: _none
       direction: ASC

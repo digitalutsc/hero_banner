@@ -2,25 +2,32 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_16_4_hero_image
-    - node.type.landing_page
+    - field.storage.media.field_media_image
+    - media.type.banner_image
   module:
+    - content_translation
     - image
-id: node.landing_page.field_16_4_hero_image
-field_name: field_16_4_hero_image
-entity_type: node
-bundle: landing_page
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: media.banner_image.field_media_image
+field_name: field_media_image
+entity_type: media
+bundle: banner_image
 label: 'Hero Image'
 description: ''
-required: false
-translatable: false
+required: true
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:file'
   handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'png gif jpg jpeg'
+  file_extensions: 'png gif jpg jpeg webp'
   max_filesize: ''
   max_resolution: ''
   min_resolution: ''

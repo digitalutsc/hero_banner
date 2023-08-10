@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_hero_title
-    - node.type.landing_page
-id: node.landing_page.field_hero_title
+    - field.storage.media.field_hero_title
+    - media.type.banner_image
+id: media.banner_image.field_hero_title
 field_name: field_hero_title
-entity_type: node
-bundle: landing_page
+entity_type: media
+bundle: banner_image
 label: 'Hero Title'
 description: ''
 required: false

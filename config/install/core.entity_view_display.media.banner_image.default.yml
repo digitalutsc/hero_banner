@@ -5,6 +5,7 @@ dependencies:
     - field.field.media.banner_image.field_colour_themes
     - field.field.media.banner_image.field_description
     - field.field.media.banner_image.field_description_positioning
+    - field.field.media.banner_image.field_featured_description
     - field.field.media.banner_image.field_hero_link
     - field.field.media.banner_image.field_hero_title
     - field.field.media.banner_image.field_media_image
@@ -40,6 +41,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 4
+    region: content
+  field_featured_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
     region: content
   field_hero_link:
     type: link

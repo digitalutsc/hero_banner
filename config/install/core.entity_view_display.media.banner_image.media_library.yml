@@ -6,6 +6,7 @@ dependencies:
     - field.field.media.banner_image.field_colour_themes
     - field.field.media.banner_image.field_description
     - field.field.media.banner_image.field_description_positioning
+    - field.field.media.banner_image.field_featured_description
     - field.field.media.banner_image.field_hero_link
     - field.field.media.banner_image.field_hero_title
     - field.field.media.banner_image.field_media_image
@@ -34,6 +35,7 @@ hidden:
   field_colour_themes: true
   field_description: true
   field_description_positioning: true
+  field_featured_description: true
   field_hero_link: true
   field_hero_title: true
   field_media_image: true

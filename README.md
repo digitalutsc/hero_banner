@@ -37,14 +37,3 @@ composer require digitalutsc/drupal_hero_banner
 ![image](https://github.com/digitalutsc/islandora_lite_docs/assets/7862086/50f0521a-4f6b-46fd-b524-38aba64b7443)
 
 * Go to `/admin/config/system/site-information`, set the new create Landing page as Front page. 
-
-
-## Manually install Browse by taxonomy terms interface
-
-* Example: https://memory.digital.utsc.utoronto.ca/browse-subjects OR https://find.digital.utsc.utoronto.ca/browse-types
-* Download the following config files at https://github.com/digitalutsc/dsu_sites_config/tree/main/memory/browse_by_subject
-* Run the drush config:import on those config files: 
-````
-drush -y config-import --partial --source="...."
-````
-

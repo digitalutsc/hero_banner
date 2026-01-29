@@ -981,6 +981,7 @@ display:
           plugin_id: standard
           required: false
       display_description: ''
+      rendering_language: '***LANGUAGE_language_interface***'
       display_extenders:
         matomo:
           enabled: false

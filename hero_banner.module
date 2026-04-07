@@ -34,7 +34,7 @@ function hero_banner_theme() {
   ];
 }
 
- /**
+/**
  * Implements hook_page_attachments().
  */
 function hero_banner_page_attachments(array &$attachments) {

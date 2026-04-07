@@ -13,11 +13,24 @@ use Drupal\Tests\BrowserTestBase;
 class LoadTest extends BrowserTestBase {
 
   /**
+   * Default theme to use during the test.
+   *
+   * @var string
+   */
+  protected $defaultTheme = 'stark';
+
+  /**
    * Modules to enable.
    *
    * @var array
    */
   public static $modules = ['hero_banner'];
+
+  /**
+   * {@inheritdoc}
+   */
+  // phpcs:ignore -- Do not disable strict config schema checking in tests.
+  protected $strictConfigSchema = FALSE;
 
   /**
    * A user with permission to administer site configuration.
@@ -29,7 +42,7 @@ class LoadTest extends BrowserTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp() {
+  protected function setUp(): void {
     parent::setUp();
     $this->user = $this->drupalCreateUser(['administer site configuration']);
     $this->drupalLogin($this->user);

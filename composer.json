@@ -21,7 +21,7 @@
         "drupal/entity_reference_revisions": "^1.10",
         "drupal/paragraphs": "^1.16",
         "drupal/field_permissions": "^1.2",
-        "drupal/field_group": "^3.4",
+        "drupal/field_group": "^4.0",
         "drupal/image_widget_crop": "^2.4",
         "drupal/imce": "^3.0",
         "drupal/bootstrap_barrio":"^5.5"

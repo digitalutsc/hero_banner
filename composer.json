@@ -18,12 +18,12 @@
         }
     },
     "require": {
-        "drupal/entity_reference_revisions": "^1.10",
-        "drupal/paragraphs": "^1.16",
-        "drupal/field_permissions": "^1.2",
+        "drupal/entity_reference_revisions": "^1.14",
+        "drupal/paragraphs": "^1.23",
+        "drupal/field_permissions": "^1.5",
         "drupal/field_group": "^4.0",
-        "drupal/image_widget_crop": "^2.4",
-        "drupal/imce": "^3.0",
+        "drupal/image_widget_crop": "^3.0.0",
+        "drupal/imce": "^3.1",
         "drupal/bootstrap_barrio":"^5.5"
     },
     "authors": [
